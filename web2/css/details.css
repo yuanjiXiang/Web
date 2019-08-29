@@ -1,0 +1,437 @@
+/*top*/
+.top{
+	font-size: 13px;
+	color: #868686;
+	line-height: 30px;
+}
+.call{
+	float: left;
+	padding-left: 20px;
+	background: url(../图片素材/icon-call.png) no-repeat center left;	
+}
+.login, .help{
+	float: right;
+	padding-left: 76px;
+}
+
+.login a, .help a{
+	color: #2dafe1;
+}
+
+/*header*/
+.logo{
+	height: 92px;
+	width: 374px;
+	float: left;
+	background:url(../图片素材/logo.png) no-repeat center left;
+	background-size: 107% 86%;
+}
+.search{
+	width: 326px;
+	height: 38px;
+	border-radius: 5px;
+	float: right;
+	background:url(../图片素材/ui-search.jpg) no-repeat center left;
+	margin-top: 26px;
+	cursor: pointer;
+	position: relative;
+}
+.search span{
+	display: block;
+	padding: 8px;
+	color: #fff;
+}
+.search-list{
+	width: 54px;
+	display: none;
+}
+.search-list span:nth-child(1),
+.search-list span:nth-child(2),
+.search-list span:nth-child(3){
+	width: 54px;
+	color: #888888;	
+	background-color: #fff;
+	line-height: 22px;
+	text-align: center;
+}
+.search-list span:nth-child(3){
+	border-radius: 5px;
+}
+
+.search-content{
+	font-size: 15px;
+	position: absolute;
+	top: 9px;
+	left: 76px;
+	display: inline-block;
+	height: 20px;
+	border:none;
+	outline: none;
+}
+
+/*nav*/
+nav a{
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: #fff;	
+}
+nav a:last-child{
+	float: right;
+}
+
+/*简介*/
+.hospital{
+	display: inline-block;
+	width: 98px;
+	height: 53px;
+	line-height: 53px;
+	color: #000;
+	font-size: 16px;
+}
+.concern{
+	display: inline-block;
+	width: 49px;
+	height: 53px;
+	line-height: 53px;
+	color: #f29600;
+	font-size: 10px;
+}
+.rank{
+	display: inline-block;
+	float: right;
+	width: 309px;
+	height: 53px;
+	line-height: 53px;
+	color: #000;
+	font-size: 10px;
+}
+.rank span{
+	color: #00f;
+}
+.hospital-img{
+	width: 200px;
+	height: 150px;
+	background-image: url(../图片素材/hospital-1.jpg);
+	float: left;	
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.hospital-map{
+	width: 250px;
+	height: 165px;
+	background-image: url(../图片素材/map-1.png);
+	background-size: 100% 100%;
+	float: right;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+.hospital-words{
+ 	width: 422px;
+ 	height: 115px;
+ 	font-size: 10px;
+ 	float: left;	
+}
+.hospital-words p{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 28px;
+	color: #888888;
+}
+.hospital-words p:first-child{
+	background: url(../图片素材/icon-web.png)0 4px no-repeat;
+}
+.hospital-words p:nth-child(2){
+	background: url(../图片素材/icon-web.png) 0 -18px no-repeat;
+}
+.hospital-words p:nth-child(3){
+	background: url(../图片素材/icon-web.png) 0 -39px no-repeat;
+}
+.hospital-words p:nth-child(4){
+	background: url(../图片素材/icon-web.png) 0 -60px no-repeat;
+}
+
+/*main*/
+.main{
+	overflow: hidden;
+}
+.item a {
+	display: inline-block;
+	width: 110px;
+	height: 32px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	color: #00b3ec;
+}
+.item .item-selected{
+	background-color: rgb(96, 191, 242);
+	color: rgb(255, 255, 255); 
+}
+.caption span{
+	display: inline-block;
+	width: 148px;
+	line-height: 44px;
+	font-size: 16px;
+	text-align: center;
+	color: #000;
+}
+
+.detail-table{
+	width: 710px;
+	height: 364px;
+	border-spacing: 0;
+	border-color: #f4f6fa;
+	border-width: 1px;
+}
+.detail-table td{
+	padding-top: 5px;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+}
+.room{
+	background-color: #f2fbff;
+}
+.room-under{
+	border-bottom: 1px solid #f4f6fa;
+}
+.detail-page2,
+.detail-page3,
+.detail-page4,
+.detail-page5{
+	width: 1000px;
+	height: 408px;
+	text-align: center;
+	display: none;
+}
+.detail-page5 p{
+	margin-top: 30px;
+	height: 40px;
+	line-height: 40px;
+}
+.detail-page5 p input{
+	display: inline-block;
+	height: 22px;
+	width: 100px;
+	margin-left: 5px;
+}
+.detail-page5 p input:last-child{
+	background-color: rgb(96, 191, 242);
+	color: rgb(255, 255, 255); 
+	text-align: center;
+	cursor: pointer;
+	height: 26px;
+}
+
+
+.rule{
+	border:#f4f6fa 1px solid;
+}
+.rule-caption p{
+	display: inline-block;
+	width: 75px;
+	height: 100%;
+	line-height: 38px;
+	font-size: 16px;
+	text-align: center;
+}
+.rule-caption{
+	display: inline-block;
+	line-height: 16px;
+	font-size: 10px;
+}
+.rule-caption span{
+	color: #00b3ec;
+}
+.rule-detail{
+	height: 237px;
+	padding-top: 10px;
+	padding-left: 5px;
+	overflow-y: scroll;
+}
+.rule-detail p{
+	font-size: 10px;
+	height: 25px;
+	line-height: 25px;
+}
+.rule-detail p span{
+	color: #888888;
+}
+
+
+
+
+/*排班表*/
+.registration-top{
+	width: 100%;
+	height: 363px;
+	z-index: 2;
+	position: relative;
+}
+.registration-caption{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	border-bottom: 1px solid #dcdddd;
+}
+.registration-caption span{
+	color: #00b3ec;
+	font-size: 14px;
+	cursor: pointer;
+}
+.table-wrap{
+	width: 99999px;
+	height: 322px;
+	z-index: 1;
+}
+.table-wrap-narrow{
+	width: 659px;
+	height: 322px;
+	overflow: hidden;
+}
+
+.go-left, .go-right{
+	height: 322px;
+	width: 36px;
+	float: left;
+	background-color: #f2f8ff;
+}
+.go-left{
+	border-left: 1px solid #dcdddd;	
+}
+.go-left span{
+	display: inline-block;
+	width: 36px;
+	height: 44px;
+	background: url(../图片素材/icon-scheduling-left.jpg)1px -1px no-repeat ;
+	cursor: pointer;
+}
+.go-left p{
+	height: 92px;
+	width: 36px;
+	line-height: 91px;
+	font-size: 10px;
+	text-align: center;
+}
+.go-right span{
+	display: inline-block;
+	width: 36px;
+	height: 44px;
+	background: url(../图片素材/icon-scheduling-right.jpg)1px -1px no-repeat;
+	cursor: pointer;
+}
+.go-right{
+	position: absolute;
+	right: 268px;
+	top: 41px;
+}
+.registration-table{
+	border-spacing: 0;
+	width: 659px;
+	height: 322px;
+	border-color: #f4f6fa;
+	border-width: 1px;
+	float: left;
+	font-size: 10px;
+	color: #888888;
+}
+.registration-table1{
+	position: relative;
+	left: 0;
+}
+.registration-table2{
+	position: relative;
+	left: 659px;
+	top: -322px;
+}
+.registration-table td{
+	text-align: center;
+	padding-left:10px;
+	padding-right:12px;
+}
+.registration-table tr:first-child{
+	height: 44px;
+}
+.registration-rule{
+	border-right: 1px solid #dcdddd;
+	height: 322px;
+	width: 267px;
+	position: absolute;
+	right: 0;
+	top: 41px;
+	overflow: hidden;
+}
+.registration-rule .rule-detail{
+	height: 274px;
+	
+}
+.registration-rule .rule-caption{
+	height: 44px;
+	width: 267px;
+	border-bottom: 1px solid #dcdddd;
+}
+
+.date{
+	height: 64px;
+	width: 998px;
+	border: 1px solid #dcdddd;
+
+	background-color: #fff;
+}
+.date span{
+	display: block;
+	width: 200px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 15px;
+	margin: 0 auto;
+	padding-left: 20px;
+	background: url(../图片素材/icon-info.jpg) no-repeat left center;
+	color: #888888;
+}
+/*footer*/
+footer span{
+	display: block;
+	width: 200px;
+	height: 100%;
+	line-height: 70px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #acacac;
+}
+
+
+
+/*.item-detail, .item{
+	display: none;
+}*/
+	
+/*.registration-table1{
+	display: none;
+}*/
+
+/*.registration-table2{
+	display: none;
+}*/
+
+.registration{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

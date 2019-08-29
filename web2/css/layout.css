@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'MicroSoft YaHei';
+}
+body{
+	min-width: 1000px;
+}
+.wrap{
+	width: 1000px;
+	height: 100%;
+	margin:0 auto;
+}
+
+/*top*/
+.top{
+	height: 30px;
+	background-color: #f5f5f5;
+}
+
+/*header*/
+header{
+	height: 92px;
+	background-color: #fff;
+}
+
+/*nav*/
+nav{
+	height: 36px;
+	background-color: #60bff2;
+	margin-bottom: 30px;
+}
+
+/*简介*/
+.brief{
+	height: 262px;
+	background-color: #f7f7f7;
+	margin-bottom: 40px;	
+}
+.brief-caption{
+	height: 53px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+hr{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 14px;
+	width: 950px;
+	height: 1px;
+	background: #dcdddd;
+	border: none;
+}
+
+/*主页面*/
+.main{
+	height: 460px;
+}
+.main .item{
+	height: 32px;
+	border-bottom: #60bff2 solid 2px;
+	margin-bottom: 20px;
+}
+
+
+.main .item-detail{
+	height: 405px;
+	width: 1000px;
+}
+.detail-page-left{
+	float: left;
+	border-bottom: 1px solid #f4f6fa;
+}
+.detail-page-left .caption{
+	height: 44px;
+	width: 710px;
+	background-color: #f4f6fa;
+}
+.main .item-detail .detail-page-left{
+	width: 710px;
+	height: 405px;
+}
+
+.rule{
+	width: 274px;
+	height: 284px;
+	float: right;
+}
+.rule .rule-caption{
+	width: 100%;
+	height: 38px;
+	background-color: #f4f6fa;
+}
+.registration{
+	width: 100%;
+	height: 428px;
+	border-bottom: : 1px solid #dcdddd;
+}
+
+/*footer*/
+footer{
+	margin-top: 80px;
+	width: 100%;
+	height: 70px;
+	background-color: #eceef2;
+}
+
+
+
+
+
+
+
