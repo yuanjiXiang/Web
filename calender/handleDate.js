@@ -2,6 +2,12 @@ let input = document.getElementById('input')
 var title = document.getElementsByClassName('title')[0]
 var spans = document.getElementsByTagName('span')
 
+const calendarDiv = document.getElementById('calendar')
+for(let i = 0; i < 42; i++){
+    const spanEle = document.createElement('span')
+    calendarDiv.appendChild(spanEle)
+}
+
 input.onblur = function() {
     let inputVal = input.value //获取输入框内容
     updateCal(analysisDate(inputVal))
